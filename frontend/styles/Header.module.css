@@ -1,0 +1,44 @@
+/* Header styles */
+.header {
+    background-color: #f0f0f0;
+    padding: 1rem;
+  
+  }
+  
+  /* Navigation menu styles */
+  .menu {
+    
+    list-style: none;
+    display: flex;
+    justify-content: flex-end ;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+
+  }
+  
+  .menu li {
+    margin-right: 1.2rem;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .menu a:hover {
+    color: #ff6600;
+    cursor: pointer;
+  }
+  
+  .connect{
+    justify-content: flex-end ;
+  }
+  .logoContainer{
+    height: 10px;
+	  width: 10px;
+    margin-left: 100px;
+  }

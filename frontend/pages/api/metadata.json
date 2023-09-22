@@ -1,0 +1,14 @@
+[
+    {
+      "name": "Company ABC",
+      "location": "Location ABC",
+      "reservesTons": 200,
+      "industryTechnology": "Tech ABC",
+      "description": "Description ABC",
+      "removalType": "BEECS",
+      "amountTons": 75,
+      "frequency": "One-time",
+      "priceUSDPerTons": 8
+    }
+  ]
+  
