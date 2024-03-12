@@ -16,15 +16,13 @@ export default function Header() {
     <header className={styles.header}>
       <div className={styles.logoContainer}>
         <Link href="/" passHref>
-        
-            <Image
-              className={styles.logo}
-              src="/logo.png"
-              width="60"
-              height="60"
-              alt="Logo"
-            />
-       
+          <Image
+            className={styles.logo}
+            src="/logo.png"
+            width="60"
+            height="60"
+            alt="Logo"
+          />
         </Link>
       </div>
       <nav>
@@ -32,7 +30,11 @@ export default function Header() {
           {categories.map((category, index) => (
             <li key={index}>
               <Link
-                href={category === "Home" ? "/" : `/${category.toLowerCase().replace(" ", "-")}`}
+                href={
+                  category === "Home"
+                    ? "/"
+                    : `/${category.toLowerCase().replace(" ", "-")}`
+                }
                 passHref
               >
                 {category}
@@ -40,7 +42,9 @@ export default function Header() {
             </li>
           ))}
           <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-            <ConnectButton showBalance={{ smallScreen: true, largeScreen: false }} />
+            <ConnectButton
+              showBalance={{ smallScreen: true, largeScreen: false }}
+            />
           </div>
         </ul>
       </nav>

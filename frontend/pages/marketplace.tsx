@@ -30,7 +30,7 @@ export default function Marketplace() {
       <div style={{ display: "flex", alignItems: "left", minHeight: "60%", color: "green" }}>
         &nbsp;
       &nbsp;
-        <h2>ECO Marketplace </h2>
+        <h2>C2 Soko </h2>
       </div>
          &nbsp;
        <ListedNFT />

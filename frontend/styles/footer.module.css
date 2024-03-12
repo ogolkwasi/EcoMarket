@@ -1,12 +1,29 @@
-
-.footer{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap:1rem;
+/* Footer styles */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem; /* Add space between child elements */
+  margin-top: 2rem; /* Add space above the footer */
+  margin-bottom: 2rem; /* Add space below the footer */
 }
-.icons_container{
-	display: flex;
-	gap: 2rem;
-	margin-bottom: .5rem;
+
+/* Icons container styles */
+.icons_container {
+  display: flex;
+  flex-wrap: wrap; /* Allow icons to wrap to new line on smaller screens */
+  justify-content: center; /* Center icons horizontally */
+  gap: 1rem; /* Adjust spacing between icons */
+  margin-bottom: 1rem; /* Add space below the icons container */
+}
+
+/* Media query for mobile responsiveness */
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 1rem; /* Add padding for better spacing */
+  }
+
+  .icons_container {
+    gap: 0.5rem; /* Reduce spacing between icons */
+  }
 }

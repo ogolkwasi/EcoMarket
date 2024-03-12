@@ -1,17 +1,31 @@
-
-
+/* Navbar styles */
 .navbar {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	width: 100%;
-	padding: 2rem 4rem 0.8rem 4rem;
-	gap: 2rem;
-	margin-bottom: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1.5rem 2rem; /* Adjusted padding for better spacing */
+  gap: 1.5rem; /* Adjusted gap for better spacing */
+  background-color: #4caf50; /* Background color for the navbar */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
 }
 
+/* Alchemy logo styles */
+.alchemy_logo {
+  width: 6rem;
+  cursor: pointer;
+  filter: brightness(0) invert(1); /* Invert logo color for better contrast on dark background */
+}
 
-.alchemy_logo{
-	width: 6rem;
-	cursor: pointer;
+/* Media query for mobile responsiveness */
+@media screen and (max-width: 768px) {
+  .navbar {
+    padding: 1.5rem; /* Adjusted padding for smaller screens */
+    gap: 1rem; /* Adjusted gap for smaller screens */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+  }
+
+  .alchemy_logo {
+    width: 4rem; /* Adjusted logo size for smaller screens */
+  }
 }
