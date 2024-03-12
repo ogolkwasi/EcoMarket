@@ -409,7 +409,7 @@ export default function ListedNFT() {
                   buyTokens(nft, totalPriceInUSD, numberOfTokensToBuy)
                 }
               >
-                Buy ECO token
+                Buy C2Soko token
               </button>
             </div>
           </div>

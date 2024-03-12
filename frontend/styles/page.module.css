@@ -1,5 +1,10 @@
-
-
 .main {
-	padding: 2rem 0;
+  padding: 2rem 0;
+}
+/* Media query for mobile responsiveness */
+@media screen and (max-width: 768px) {
+  .main {
+    padding: 1.5rem; /* Adjusted padding for smaller screens */
+    border-radius: 8px; /* Adjusted border radius for smaller screens */
+  }
 }

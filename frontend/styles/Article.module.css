@@ -1,6 +1,4 @@
-
 @import url(https://fonts.googleapis.com/css?family=Old+Standard+TT:400|Lora:400);
-
 
 .article {
   color: var(--cement);
@@ -22,44 +20,40 @@
 }
 
 .article_container {
-   
-    background-color: rgba(53, 97, 75, 0.25);
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.125);  
-    padding: 38px;  
-    filter: drop-shadow(0 30px 10px rgba(0,0,0,0.125));
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px; 
-    
-  }
-  .article_container_card {
-
-    background-color: rgba(53, 97, 75, 0.25);
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.125);  
-    padding: 38px;  
-    filter: drop-shadow(0 30px 10px rgba(0,0,0,0.125));
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: auto;
-	width: 870px; 
-  }
-  .article_container_text {
-  
-    background-color: rgba(53, 97, 75, 0.25);
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.125);  
-    padding: 38px;  
-    filter: drop-shadow(0 30px 10px rgba(0,0,0,0.125));
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: auto;
-	width: 1570px;
-  }
+  background-color: rgba(53, 97, 75, 0.25);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  padding: 38px;
+  filter: drop-shadow(0 30px 10px rgba(0, 0, 0, 0.125));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.article_container_card {
+  background-color: rgba(53, 97, 75, 0.25);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  padding: 38px;
+  filter: drop-shadow(0 30px 10px rgba(0, 0, 0, 0.125));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  width: 870px;
+}
+.article_container_text {
+  background-color: rgba(161, 223, 192, 0.681);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  padding: 38px;
+  filter: drop-shadow(0 30px 10px rgba(0, 0, 0, 0.125));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  width: 1570px;
+}
 
 .lead {
   color: var(--cement);
@@ -71,7 +65,8 @@
 
 .hr {
   border: none;
-  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/5175/hr-01.png') no-repeat center;
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/5175/hr-01.png")
+    no-repeat center;
   height: 40px;
   margin: 5em 0;
 }

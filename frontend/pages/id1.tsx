@@ -1,6 +1,6 @@
 import styles from '../styles/Card.module.css';
 import NFTMarketplace from '../../fronted/artifacts/contracts/NFTMarketplace.sol/NFTMarketplaceBuy.json';
-import { ContractAddressforMarket } from '../../backend/configbuy';
+import { ContractAddressforMarket } from '../../backend/configBuy';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { ethers } from 'ethers';

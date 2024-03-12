@@ -1,44 +1,68 @@
 /* Header styles */
 .header {
-    background-color: #f0f0f0;
-    padding: 1rem;
-  
+  background-color: #4caf50; /* Update to a modern green color */
+  padding: 1.5rem; /* Increase padding for better spacing */
+  display: flex; /* Add flex display for easier alignment */
+  justify-content: space-between; /* Align items and logo at opposite ends */
+  align-items: center; /* Center items vertically */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add white shadow effect */
+}
+
+/* Navigation menu styles */
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 1.2rem; /* Use gap property for spacing between menu items */
+}
+
+.menu li {
+  margin-right: 1.2rem;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: color 0.3s; /* Add smooth transition effect */
+}
+
+.menu a:hover {
+  color: #ff6600;
+  cursor: pointer;
+}
+
+/* Connect button styles */
+.connect {
+  margin-left: auto; /* Push connect button to the right */
+}
+
+/* Logo container styles */
+.logoContainer {
+  height: 40px; /* Increase logo size for better visibility */
+  width: 40px;
+  margin-right: 20px; /* Add margin for spacing between logo and menu */
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column; /* Stack items vertically on small screens */
+    align-items: center; /* Align items to the center on small screens */
+    padding: 1rem; /* Reduce padding for smaller screens */
   }
-  
-  /* Navigation menu styles */
+
   .menu {
-    
-    list-style: none;
-    display: flex;
-    justify-content: flex-end ;
-    align-items: center;
-    flex-wrap: wrap;
-    
-
-
+    margin-top: 1rem; /* Add space between menu and logo on small screens */
+    justify-content: center; /* Center menu items on small screens */
   }
-  
+
   .menu li {
-    margin-right: 1.2rem;
+    margin-right: 0; /* Remove right margin for menu items on small screens */
+    margin-bottom: 0.5rem; /* Add bottom margin for spacing */
   }
-  
-  .menu a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    font-size: 1.2rem;
+
+  .connect {
+    margin-top: 1rem; /* Add space between menu and connect button */
   }
-  
-  .menu a:hover {
-    color: #ff6600;
-    cursor: pointer;
-  }
-  
-  .connect{
-    justify-content: flex-end ;
-  }
-  .logoContainer{
-    height: 10px;
-	  width: 10px;
-    margin-left: 100px;
-  }
+}
