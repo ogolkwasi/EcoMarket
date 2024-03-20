@@ -12,8 +12,6 @@ import {
   polygon,
   optimism,
   arbitrum,
-  celoAlfajores,
-  celo,
   optimismGoerli,
   polygonMumbai,
   arbitrumGoerli,
@@ -26,21 +24,21 @@ import NFTPage from "./NFTPage";
 const queryClient = new QueryClient();
 const projectId = "071c50c0ebe4fb679de0a950913210fb"; // Replace with your provided projectId
 
-const { chains, publicClient } = configureChains(
-  [
-    Celo,
-    Alfajores,
-    mainnet,
-    polygon,
-    optimism,
-    arbitrum,
-    optimismGoerli,
-    polygonMumbai,
-    arbitrumGoerli,
-    goerli,
-  ],
-  [publicProvider()]
-);
+// Define chains array
+const chains = [
+  Celo,
+  Alfajores,
+  mainnet,
+  polygon,
+  optimism,
+  arbitrum,
+  optimismGoerli,
+  polygonMumbai,
+  arbitrumGoerli,
+  goerli,
+];
+
+const { publicClient } = configureChains(chains, [publicProvider()]);
 
 const connectors = celoGroups({
   chains,

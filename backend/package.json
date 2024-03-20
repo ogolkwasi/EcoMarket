@@ -1,24 +1,24 @@
 {
-	"name": "Ecomarket",
-	"version": "0.1.0",
-	"private": true,
-	"scripts": {
-		"build": "npx hardhat compile",
-		"deploy-testnet": "npx hardhat run ./scripts/Ecomarket_deploy.js --network MATIC_MUMBAI",
-		"deploy": "npx hardhat run ./scripts/Ecomarket_deploy.js --network MATIC_MAINNET",
-		"node": "npx hardhat node",
-		"deploy-local": "npx hardhat run ./scripts/Ecomarket_deploy.js --network localhost"
-	},
-	"dependencies": {
-		"@chainlink/contracts": "^0.6.1",
-		"@openzeppelin/contracts": "^4.9.3",
-		"dotenv": "^16.3.1"
-	},
-	"devDependencies": {
-		"@nomicfoundation/hardhat-toolbox": "^1.0.2",
-		"@types/jest": "^29.5.4",
-		"@types/mocha": "^10.0.1",
-		"hardhat": "^2.10.1",
-		"typechain": "^8.3.1"
-	}
+  "name": "Ecomarket",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "npx hardhat compile",
+    "deploy-testnet": "npx hardhat run ./scripts/Ecomarket_deploy.js --network MATIC_MUMBAI",
+    "deploy": "npx hardhat run ./scripts/Ecomarket_deploy.js --network MATIC_MAINNET",
+    "node": "npx hardhat node",
+    "deploy-local": "npx hardhat run ./scripts/Ecomarket_deploy.js --network localhost"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^0.6.1",
+    "@openzeppelin/contracts": "^4.9.3",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "@types/jest": "^29.5.4",
+    "@types/mocha": "^10.0.1",
+    "hardhat": "^2.22.1",
+    "typechain": "^8.3.1"
+  }
 }
