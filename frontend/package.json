@@ -38,6 +38,7 @@
     "react-query": "^3.39.3",
     "react-router-dom": "^6.16.0",
     "toucan-sdk": "^1.0.4-beta",
+    "vercel": "^33.6.1",
     "viem": "^0.3.30",
     "wagmi": "^1.2",
     "web3": "^4.1.1",
