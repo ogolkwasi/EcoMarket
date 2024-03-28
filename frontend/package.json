@@ -19,6 +19,7 @@
     "@thirdweb-dev/react": "^3.14.40",
     "@types/express": "^4.17.17",
     "@wagmi/chains": "^1.8.0",
+    "@web3modal/wagmi": "^4.1.1",
     "@xmtp/xmtp-js": "^11.0.0",
     "alchemy-sdk": "^2.10.0",
     "cors": "^2.8.5",
