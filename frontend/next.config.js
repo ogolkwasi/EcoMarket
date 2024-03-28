@@ -1,12 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-module.exports = nextConfig;
-
-module.exports = {
+const nextConfig = {
   reactStrictMode: false,
   experimental: {
-noHydration: true,
+    noHydration: true,
   },
   webpack: (config) => {
     config.resolve.fallback = { fs: false, net: false };
@@ -14,3 +10,4 @@ noHydration: true,
   },
 };
 
+module.exports = nextConfig;
